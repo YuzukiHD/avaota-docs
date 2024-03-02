@@ -32,5 +32,5 @@ jobs:
           remote-user: ${{ secrets.FTP_SERVER_USERNAME }}
           private-ssh-key: ${{ secrets.FTP_SERVER_PASSWD }}
           destination-path: /www/wwwroot/avaota.yuzukihd.top/
-          source-path: ${{ github.workspace }}
-          rsync-options: --archive -O --no-perms --compress --human-readable --progress --delete-after --exclude=.git* --exclude=.git/ --exclude=.gitignore
+          source-path: ${{ github.workspace }}/
+          rsync-options: --archive -O --no-perms --compress --human-readable --progress --delete-after --exclude=.git* --exclude=.well-known/ --exclude=.git/ --exclude=.gitignore
