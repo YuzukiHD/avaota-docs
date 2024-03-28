@@ -27,8 +27,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="3.6970588"
-     inkscape:cx="133.214"
-     inkscape:cy="138.48846"
+     inkscape:cx="124.9642"
+     inkscape:cy="138.48847"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="-8"
@@ -37,14 +37,15 @@
      inkscape:current-layer="svg90" />
   <rect
      data-v-0dd9719b=""
-     x="0"
-     y="0"
-     width="100%"
-     height="100%"
+     x="44.891479"
+     y="83.750023"
+     width="73.593246%"
+     height="32.999981%"
      fill="#020202"
      fill-opacity="1"
      class="background"
-     id="rect2" />
+     id="rect2"
+     style="stroke-width:0.492806" />
   <rect
      data-v-0dd9719b=""
      x="0"
