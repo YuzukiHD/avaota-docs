@@ -40,6 +40,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -66,54 +67,42 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '东山Π',
+        title: 'Avaota SBC文档',
         logo: {
-          alt: '东山PI',
+          alt: 'AvaotaPI',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 't113s3Sidebar',
+            sidebarId: 'avaotapiSidebar',
             position: 'left',
-            label: 'T113s3-Industrial',
-          },          
-          {
-            type: 'docSidebar',
-            sidebarId: 'v851seSidebar',
-            position: 'left',
-            label: 'TinyVision',
+            label: 'Avaota SBC',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'd1hdSidebar',
+            sidebarId: 'linuxuserSidebar',
             position: 'left',
-            label: 'D1h-DualDisplay',
+            label: 'Linux手册',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'd213dkSidebar',
+            sidebarId: 'linuxapiSidebar',
             position: 'left',
-            label: 'D213-DevKit',
+            label: 'Linux-API',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'mp135dkSidebar',
+            sidebarId: 'tinalinuxSidebar',
             position: 'left',
-            label: 'MP135-DevKit',
+            label: 'Tina Linux',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'd1scvbsSidebar',
+            sidebarId: 'mainlinelinuxSidebar',
             position: 'left',
-            label: 'D1s-CVBS',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 't113iSidebar',
-            position: 'left',
-            label: 'T113i-Industrial',
-          },          
+            label: 'Linux 主线',
+          },                   
           {
             type: 'localeDropdown',
             position: 'right',
