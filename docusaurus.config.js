@@ -8,12 +8,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '东山Π',
-  tagline: 'DshanPI Linux Boards Docs.',
+  title: 'Avaota SBC',
+  tagline: 'Avaota SBC Linux Boards Docs.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://dongshanpi.100ask.net',
+  url: 'http://avaota.dongshanpi.com/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
