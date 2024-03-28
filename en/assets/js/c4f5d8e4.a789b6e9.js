@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[195],{2841:(e,t,s)=>{s.r(t),s.d(t,{default:()=>n});s(7294);var u=s(6550),a=s(5893);function n(){return(0,a.jsx)(u.l_,{to:"Avaota-SBC/BoardIntroduction/"})}}}]);
